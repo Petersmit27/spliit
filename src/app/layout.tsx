@@ -1,4 +1,5 @@
 import { ApplePwaSplash } from '@/app/apple-pwa-splash'
+import InstallButton from '@/components/install-button'
 import { LocaleSwitcher } from '@/components/locale-switcher'
 import { ProgressBar } from '@/components/progress-bar'
 import { ThemeProvider } from '@/components/theme-provider'
@@ -84,6 +85,9 @@ function Content({ children }: { children: React.ReactNode }) {
         </Link>
         <div role="navigation" aria-label="Menu" className="flex">
           <ul className="flex items-center text-sm">
+            <li>
+              <InstallButton />
+            </li>
             <li>
               <Button
                 variant="ghost"

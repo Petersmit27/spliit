@@ -8,6 +8,7 @@
     }
   },
   "Header": {
+    "install": "Installeer App",
     "groups": "Groepen"
   },
   "Footer": {
